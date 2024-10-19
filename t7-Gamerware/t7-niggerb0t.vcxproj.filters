@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Core\Hooks.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\MainGUI.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Aimbot\Aimbot.cpp">
+      <Filter>Core\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Autowall\Autowall.cpp">
+      <Filter>Core\Autowall</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Drawing\Drawing.cpp">
+      <Filter>Core\Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Mathematics\Mathematics.cpp">
+      <Filter>Core\Mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\TargetList\TargetList.cpp">
+      <Filter>Core\TargetList</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Removals\Removals.cpp">
+      <Filter>Core\Removals</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\DX11\imgui_impl_dx11.cpp">
+      <Filter>ImGui\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\Win32\imgui_impl_win32.cpp">
+      <Filter>ImGui\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\AntiAim\AntiAim.cpp">
+      <Filter>Core\AntiAim</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Exploits\Exploits.cpp">
+      <Filter>Core\Exploits</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Packets\Packets.cpp">
+      <Filter>Core\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Shitters\Shitters.cpp">
+      <Filter>Core\Shitters</Filter>
+    </ClCompile>
+    <ClCompile Include="DllMain.cpp" />
+    <ClCompile Include="Core\Configs\Configs.cpp">
+      <Filter>Core\Configs</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Stats\Stats.cpp">
+      <Filter>Core\Stats</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Steam\Steam.cpp">
+      <Filter>Core\Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Sounds\Sounds.cpp">
+      <Filter>Core\Sounds</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Sessions\Sessions.cpp">
+      <Filter>Core\Sessions</Filter>
+    </ClCompile>
+    <ClCompile Include="Auto.cpp">
+      <Filter>Core\Exploits\Auto Send</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StdAfx.hpp" />
+    <ClInclude Include="Core\Hooks.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\MainGUI.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Aimbot\Aimbot.h">
+      <Filter>Core\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Autowall\Autowall.h">
+      <Filter>Core\Autowall</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Drawing\Drawing.h">
+      <Filter>Core\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Engine\Engine.hpp">
+      <Filter>Core\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Mathematics\Mathematics.h">
+      <Filter>Core\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\TargetList\TargetList.h">
+      <Filter>Core\TargetList</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Removals\Removals.h">
+      <Filter>Core\Removals</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\DX11\imgui_impl_dx11.h">
+      <Filter>ImGui\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\Fonts\Bank_Gothic_Pro_Bold.hpp">
+      <Filter>ImGui\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\Fonts\Bank_Gothic_Pro_Light.hpp">
+      <Filter>ImGui\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\Fonts\Bank_Gothic_Pro_Medium.hpp">
+      <Filter>ImGui\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\Fonts\Eurostile_Bold.hpp">
+      <Filter>ImGui\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\Fonts\Eurostile_Extended.hpp">
+      <Filter>ImGui\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\Fonts\Eurostile_Regular.hpp">
+      <Filter>ImGui\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\Fonts\Tahoma.hpp">
+      <Filter>ImGui\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\Win32\imgui_impl_win32.h">
+      <Filter>ImGui\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\STB\imstb_rectpack.h">
+      <Filter>ImGui\STB</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\STB\imstb_textedit.h">
+      <Filter>ImGui\STB</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\STB\imstb_truetype.h">
+      <Filter>ImGui\STB</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\AntiAim\AntiAim.h">
+      <Filter>Core\AntiAim</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Exploits\Exploits.h">
+      <Filter>Core\Exploits</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Packets\Packets.h">
+      <Filter>Core\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Shitters\Shitters.h">
+      <Filter>Core\Shitters</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Engine\Notification.hpp">
+      <Filter>Core\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Engine\Notifications\fa_solid_900.h">
+      <Filter>Core\Engine\Notifications</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Engine\Notifications\font_awesome_5.h">
+      <Filter>Core\Engine\Notifications</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Engine\Notifications\imgui_notify.h">
+      <Filter>Core\Engine\Notifications</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Configs\Configs.h">
+      <Filter>Core\Configs</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Stats\Stats.h">
+      <Filter>Core\Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Steam\Steam.h">
+      <Filter>Core\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\DX11\Blobs\pixelBuffer.h">
+      <Filter>ImGui\DX11\Blobs</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\DX11\Blobs\vertexBuffer.h">
+      <Filter>ImGui\DX11\Blobs</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Sounds\Sounds.h">
+      <Filter>Core\Sounds</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Sessions\Sessions.h">
+      <Filter>Core\Sessions</Filter>
+    </ClInclude>
+    <ClInclude Include="Auto.h">
+      <Filter>Core\Exploits\Auto Send</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{4fdbc3fb-c6e2-4244-b536-49cbf8901a1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Aimbot">
+      <UniqueIdentifier>{66f21fff-2a6e-4c2e-b93e-10c137de7a63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Autowall">
+      <UniqueIdentifier>{5b5037ae-9774-4537-9da3-763846dfce4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Drawing">
+      <UniqueIdentifier>{32c641d7-389a-4b1d-9146-e6eacd884a38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine">
+      <UniqueIdentifier>{fcc43880-4a12-4a09-8d68-38792ed42830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Mathematics">
+      <UniqueIdentifier>{8590f920-f619-45e1-94d6-15e6b77e01ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Removals">
+      <UniqueIdentifier>{06891f06-c8e5-4c68-afe2-3db2c13cc121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\TargetList">
+      <UniqueIdentifier>{63f75cab-2925-40c3-b049-ce1b08d41fe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\AntiAim">
+      <UniqueIdentifier>{b014a420-3325-4ea4-93c6-95c23ffe7705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Exploits">
+      <UniqueIdentifier>{e877df7c-c229-4339-911f-3f9b46ebce34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Packets">
+      <UniqueIdentifier>{643d5db6-16a7-4e63-ad65-c3f383d78bc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Shitters">
+      <UniqueIdentifier>{2180be1f-f531-46cc-8b08-db91f1eda7c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{cacd7c58-2885-4d70-8e6e-4ae1f9990d3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui\DX11">
+      <UniqueIdentifier>{3fd18e76-d805-474f-80f6-937888417120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui\Fonts">
+      <UniqueIdentifier>{d1f95006-88c7-4eed-aae6-bac37da6f0e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui\STB">
+      <UniqueIdentifier>{e1421b20-e4c7-4698-bed3-585e92a0bffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui\Win32">
+      <UniqueIdentifier>{719a301e-3f91-444a-9ffa-b8c0a4effc02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine\Notifications">
+      <UniqueIdentifier>{825f4d47-cbac-454f-850c-8605e28d64be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Configs">
+      <UniqueIdentifier>{ca4228d0-6d7a-4b3e-9858-040fc6e09fce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Stats">
+      <UniqueIdentifier>{74bcbf03-1537-4066-83b9-758863b92b6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Steam">
+      <UniqueIdentifier>{dfea5601-566d-4dec-ad0b-6dd16f48781d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui\DX11\Blobs">
+      <UniqueIdentifier>{04ad14cc-3f0a-453f-b009-034b61d2e0bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Sounds">
+      <UniqueIdentifier>{f8d10eb3-056f-4949-ab6c-4eff665a850d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Sessions">
+      <UniqueIdentifier>{6e54ce1b-1939-428e-b81c-0569fbe785c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Exploits\Auto Send">
+      <UniqueIdentifier>{1c0283c6-705f-455f-b9f9-60407a943067}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

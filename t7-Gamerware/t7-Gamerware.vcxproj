@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core\Aimbot\Aimbot.cpp" />
+    <ClCompile Include="Core\AntiAim\AntiAim.cpp" />
+    <ClCompile Include="Core\Autowall\Autowall.cpp" />
+    <ClCompile Include="Core\Configs\Configs.cpp" />
+    <ClCompile Include="Core\Drawing\Drawing.cpp" />
+    <ClCompile Include="Core\Exploits\Exploits.cpp" />
+    <ClCompile Include="Core\Hooks.cpp" />
+    <ClCompile Include="Core\MainGUI.cpp" />
+    <ClCompile Include="Core\Mathematics\Mathematics.cpp" />
+    <ClCompile Include="Core\Packets\Packets.cpp" />
+    <ClCompile Include="Core\Removals\Removals.cpp" />
+    <ClCompile Include="Core\Sessions\Sessions.cpp" />
+    <ClCompile Include="Core\Shitters\Database.cpp" />
+    <ClCompile Include="Core\Sounds\Sounds.cpp" />
+    <ClCompile Include="Core\Stats\Stats.cpp" />
+    <ClCompile Include="Core\Steam\Steam.cpp" />
+    <ClCompile Include="Core\TargetList\TargetList.cpp" />
+    <ClCompile Include="DllMain.cpp" />
+    <ClCompile Include="ImGui\DX11\imgui_impl_dx11.cpp" />
+    <ClCompile Include="ImGui\imgui.cpp" />
+    <ClCompile Include="ImGui\imgui_draw.cpp" />
+    <ClCompile Include="ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="ImGui\Win32\imgui_impl_win32.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\Aimbot\Aimbot.h" />
+    <ClInclude Include="Core\AntiAim\AntiAim.h" />
+    <ClInclude Include="Core\Autowall\Autowall.h" />
+    <ClInclude Include="Core\Configs\Configs.h" />
+    <ClInclude Include="Core\Drawing\Drawing.h" />
+    <ClInclude Include="Core\Engine\Engine.hpp" />
+    <ClInclude Include="Core\Engine\Notification.hpp" />
+    <ClInclude Include="Core\Engine\Notifications\fa_solid_900.h" />
+    <ClInclude Include="Core\Engine\Notifications\font_awesome_5.h" />
+    <ClInclude Include="Core\Engine\Notifications\imgui_notify.h" />
+    <ClInclude Include="Core\Exploits\Exploits.h" />
+    <ClInclude Include="Core\Hooks.h" />
+    <ClInclude Include="Core\MainGUI.h" />
+    <ClInclude Include="Core\Mathematics\Mathematics.h" />
+    <ClInclude Include="Core\Packets\Packets.h" />
+    <ClInclude Include="Core\Removals\Removals.h" />
+    <ClInclude Include="Core\Sessions\Sessions.h" />
+    <ClInclude Include="Core\Shitters\Database.h" />
+    <ClInclude Include="Core\Sounds\Sounds.h" />
+    <ClInclude Include="Core\Stats\Stats.h" />
+    <ClInclude Include="Core\Steam\Steam.h" />
+    <ClInclude Include="Core\TargetList\TargetList.h" />
+    <ClInclude Include="ImGui\DX11\Blobs\pixelBuffer.h" />
+    <ClInclude Include="ImGui\DX11\Blobs\vertexBuffer.h" />
+    <ClInclude Include="ImGui\DX11\imgui_impl_dx11.h" />
+    <ClInclude Include="ImGui\Fonts\Bank_Gothic_Pro_Bold.hpp" />
+    <ClInclude Include="ImGui\Fonts\Bank_Gothic_Pro_Light.hpp" />
+    <ClInclude Include="ImGui\Fonts\Bank_Gothic_Pro_Medium.hpp" />
+    <ClInclude Include="ImGui\Fonts\Eurostile_Bold.hpp" />
+    <ClInclude Include="ImGui\Fonts\Eurostile_Extended.hpp" />
+    <ClInclude Include="ImGui\Fonts\Eurostile_Regular.hpp" />
+    <ClInclude Include="ImGui\Fonts\Tahoma.hpp" />
+    <ClInclude Include="ImGui\imconfig.h" />
+    <ClInclude Include="ImGui\imgui.h" />
+    <ClInclude Include="ImGui\imgui_internal.h" />
+    <ClInclude Include="ImGui\STB\imstb_rectpack.h" />
+    <ClInclude Include="ImGui\STB\imstb_textedit.h" />
+    <ClInclude Include="ImGui\STB\imstb_truetype.h" />
+    <ClInclude Include="ImGui\Win32\imgui_impl_win32.h" />
+    <ClInclude Include="StdAfx.hpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{1c1ea33b-f29d-4317-99b5-328843c042e3}</ProjectGuid>
+    <RootNamespace>t7</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>T7 - Gamerware</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir)Gamerware\Include;$(ProjectDir)SteamSDK\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)Gamerware\Lib\Release\x64;$(ProjectDir)SteamSDK\Lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Label="Vcpkg" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <VcpkgUseStatic>true</VcpkgUseStatic>
+    <VcpkgConfiguration>Release</VcpkgConfiguration>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level2</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;T7_EXPORTS;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_USE_MATH_DEFINES;VC_EXTRALEAN;WIN32_LEAN_AND_MEAN;NOMINMAX;IMGUI_DEFINE_MATH_OPERATORS;vmpstr=VMProtectDecryptStringA;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalDependencies>Ws2_32.Lib;Wldap32.Lib;Crypt32.Lib;Winmm.lib;Gamerware.lib;steam_api64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>
